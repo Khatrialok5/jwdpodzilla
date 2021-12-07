@@ -27,7 +27,7 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   margin-left: 10px;
-  margin-bottom: 2%; /* (100-32*3)/2 */
+  space-between;
   text-align: center;
 }
 
