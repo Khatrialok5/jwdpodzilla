@@ -8,7 +8,7 @@
   flex: 0 15%;
   height: 30px;
   margin-bottom: 2%; /* (100-32*3)/2 */
-  border: rgb(128, 0, 255) 2px solid;
+  border: rgb(38, 148, 11) 2px solid;
   text-align: center;
   padding-top: 10px;
   color: rgb(58, 59, 52);
@@ -22,11 +22,12 @@
   color: rgb(201, 92, 62);
 }
 .headtitle {
-  font-size: xx-large;
+  font-size: xxx-large;
   color: rgb(39, 192, 75);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   margin-left: 10px;
+  margin-bottom: 2%; /* (100-32*3)/2 */
   text-align: center;
 }
 
