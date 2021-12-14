@@ -6,12 +6,15 @@
 
 .item {
   flex: 0 15%;
-  height: 30px;
+  height: 25px;
   margin-bottom: 2%; /* (100-32*3)/2 */
-  border: rgb(11, 172, 6) 2px solid;
+  border: 2px groove rgb(75, 148, 112);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
   text-align: center;
   padding-top: 10px;
   color: rgb(58, 59, 52);
+  background-color: rgb(159, 245, 203);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -29,7 +32,8 @@
   margin-left: 10px;
   space-between;
   text-align: center;
-
+  position: relative;
+  bottom: 20px;
 }
 
 /* Profile Card */
