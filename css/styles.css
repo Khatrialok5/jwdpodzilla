@@ -8,9 +8,9 @@
   flex: 0 15%;
   height: 25px;
   margin-bottom: 2%; /* (100-32*3)/2 */
-  border: 2px groove rgb(75, 148, 112);
+  border: rgb(75, 148, 112) 2px groove;
   border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
   padding-top: 10px;
   color: rgb(58, 59, 52);
