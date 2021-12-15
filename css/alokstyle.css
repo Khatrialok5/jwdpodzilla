@@ -87,3 +87,12 @@ justify-content: center;
     color: white;
     text-align: center;
   }
+  .skills img:hover{
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:150px;
+    height:auto;
+    display:block;
+    z-index:999;
+  }
