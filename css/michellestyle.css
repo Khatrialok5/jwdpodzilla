@@ -1,0 +1,105 @@
+body{
+    background-image: url("/images/michellebg.jpg");
+    background-size: 100%;
+ 
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .item {
+    flex: 0 15%;
+    height: 25px;
+    margin-bottom: 2%; /* (100-32*3)/2 */
+    border: rgb(75, 148, 112) 2px groove;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(58, 59, 52);
+    background-color: rgb(159, 245, 203);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  .item a {
+    color: rgb(58, 59, 52);
+  }
+  .item a:hover {
+    color: rgb(29, 209, 23);
+  }
+  .headtitle {
+    font-size: xxx-large;
+    color: rgb(39, 192, 75);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    margin-left: 10px;
+    space-between;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+  }
+  
+  /* Profile Card */
+  
+  .card {
+    box-shadow: 20px 20px 0px 0 pink;
+    max-width: 300px;
+    margin: 5rem auto;
+    text-align: center;
+    font-family: montserrat;
+    border-radius: 5px 30px;
+    border:grey solid;
+    background-color: white;
+  }
+  
+  .role {
+    color: grey;
+    font-size: 12px;
+    font-family: Montserrat;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #CCFFCC;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+  }
+  
+  button:hover,
+  a:hover {
+    opacity: 0.7;
+  }
+  
+.profilepic{
+      border-radius: 100%;
+      width: 80%;
+      height: auto;
+      padding: 20px;
+  }
+
+  h1{
+      font-family: Montserrat;
+  }
+
+  .left{
+      float: left;
+      padding: 
+  }
+
+  .right{
+      float: right;
+  }

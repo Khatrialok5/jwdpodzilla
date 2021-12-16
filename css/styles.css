@@ -6,12 +6,15 @@
 
 .item {
   flex: 0 15%;
-  height: 30px;
+  height: 25px;
   margin-bottom: 2%; /* (100-32*3)/2 */
-  border: rgb(128, 0, 255) 2px solid;
+  border: rgb(75, 148, 112) 2px groove;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
   padding-top: 10px;
   color: rgb(58, 59, 52);
+  background-color: rgb(159, 245, 203);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -19,14 +22,18 @@
   color: rgb(58, 59, 52);
 }
 .item a:hover {
-  color: rgb(201, 92, 62);
+  color: rgb(29, 209, 23);
 }
 .headtitle {
-  font-size: xx-large;
-  color: rgb(0, 183, 255);
+  font-size: xxx-large;
+  color: rgb(39, 192, 75);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   margin-left: 10px;
+  space-between;
+  text-align: center;
+  position: relative;
+  bottom: 20px;
 }
 
 /* Profile Card */
@@ -50,7 +57,7 @@ button {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: #CCFFCC;
   text-align: center;
   cursor: pointer;
   width: 100%;
